@@ -1,2 +1,73 @@
-# 2d-lattice-boltzmann-method-flow-simulation-matlab
-MATLAB implementation of a 2D Lattice Boltzmann Method (D2Q9 BGK) solver with Zou–He pressure boundaries and bounce-back walls for simulating Kármán vortex street.
+# 2D Lattice Boltzmann Method Flow Simulation (MATLAB)
+
+This repository provides a compact MATLAB implementation of a **2D Lattice Boltzmann Method (LBM)** solver using the **D2Q9 lattice model** and **BGK collision operator**.
+
+The code simulates **pressure-driven channel flow past a circular obstruction**, producing the classical **Kármán vortex street**.
+
+The goal of this project is educational: with only a few hundred lines of MATLAB code, users can run a complete fluid simulation and visualize velocity, pressure, and vorticity fields in real time.
+
+---
+
+# How to Run
+
+1. Download or clone this repository
+
+
+git clone https://github.com/YOUR_REPO_NAME.git
+
+
+2. Open MATLAB
+
+3. Run the script
+
+
+LBM_Karman_Vortex_Street.m
+
+
+The simulation will automatically:
+
+- initialize the computational domain
+- run the LBM solver
+- visualize velocity, pressure, and vorticity fields
+- optionally export GIF animations of the flow evolution
+
+---
+
+# Example Output
+
+Velocity field:
+
+![Velocity](velocity_contour.gif)
+
+Vorticity field:
+
+![Vorticity](vorticity_contour.gif)
+
+---
+
+# Full Documentation
+
+A detailed explanation of the **algorithm, equations, and code structure** is available here:
+
+👉  
+**Project Documentation**
+
+https://zongze-li-pon.github.io/completed-projects/2019-11-14-2d-lattice-boltzmann-method-flow-simulation-matlab/
+
+The document includes:
+
+- LBM governing equations
+- D2Q9 lattice model
+- pressure boundary implementation
+- explanation of each code section
+- physical interpretation of the simulation
+
+---
+
+# Author
+
+**Zongze Li**
+
+Computational Fluid Dynamics  
+Lattice Boltzmann Method  
+Fluid Simulation

@@ -4,17 +4,13 @@ This repository provides a compact MATLAB implementation of a **2D Lattice Boltz
 
 The code simulates **pressure-driven channel flow past a circular obstruction**, producing the classical **Kármán vortex street**.
 
-The goal of this project is educational: with only a few hundred lines of MATLAB code, users can run a complete fluid simulation and visualize velocity, pressure, and vorticity fields in real time.
+The goal of this project is to help people come into LBM world with a simple MATLAB script: with only a few hundred lines of MATLAB code, users can run a complete fluid simulation and visualize velocity, pressure, and vorticity fields in real time.
 
 ---
 
 # How to Run
 
-1. Download or clone this repository
-
-
-git clone https://github.com/YOUR_REPO_NAME.git
-
+1. Download the .m code.
 
 2. Open MATLAB
 
@@ -30,18 +26,6 @@ The simulation will automatically:
 - run the LBM solver
 - visualize velocity, pressure, and vorticity fields
 - optionally export GIF animations of the flow evolution
-
----
-
-# Example Output
-
-Velocity field:
-
-![Velocity](velocity_contour.gif)
-
-Vorticity field:
-
-![Vorticity](vorticity_contour.gif)
 
 ---
 
@@ -61,13 +45,3 @@ The document includes:
 - pressure boundary implementation
 - explanation of each code section
 - physical interpretation of the simulation
-
----
-
-# Author
-
-**Zongze Li**
-
-Computational Fluid Dynamics  
-Lattice Boltzmann Method  
-Fluid Simulation

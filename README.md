@@ -38,7 +38,7 @@ A detailed explanation of the **algorithm, equations, and code structure** is av
 
 https://zongze-li-pon.github.io/completed-projects/2019-11-14-2d-lattice-boltzmann-method-flow-simulation-matlab/
 
-The document includes:
+The document includes the explanation of all code implementation:
 
 - LBM governing equations
 - D2Q9 lattice model

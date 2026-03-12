@@ -14,10 +14,7 @@ The goal of this project is to help people come into LBM world with a simple MAT
 
 2. Open MATLAB
 
-3. Run the script
-
-
-LBM_Karman_Vortex_Street.m
+3. Run the .m script
 
 
 The simulation will automatically:
